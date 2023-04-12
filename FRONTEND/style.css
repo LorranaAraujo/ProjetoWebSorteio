@@ -1,0 +1,56 @@
+body{
+    background-color:#6f5e44;
+    margin: 0;
+    padding: 0;    
+    font-family:'Gill Sans ';
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+header{
+    background-color: #baac91;
+    color: rgb(33, 42, 70);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.input-session{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.input-session input{
+    flex: 1 auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid #caaf9c;
+}
+
+ 
+button{
+    flex: 0 auto;
+    padding:10px 20px ;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #bc9574;
+    transition: background-color 0.4s ease;
+    
+
+}
+button:hover{
+    background-color:#a16948;
+}
+
+label{
+    text-align: center;
+
+}
